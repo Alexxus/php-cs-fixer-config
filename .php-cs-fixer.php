@@ -4,6 +4,7 @@ use PhpCsFixer\Config;
 use PhpCsFixer\Finder;
 
 $rules = [
+    '@PSR12' => true,
     'braces' => [
         'position_after_control_structures' => 'next',
     ]
