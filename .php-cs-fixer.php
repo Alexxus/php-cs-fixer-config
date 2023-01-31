@@ -5,6 +5,7 @@ use PhpCsFixer\Finder;
 
 $rules = [
     '@PSR12' => true,
+    'array_indentation' => true,
     'braces' => [
         'position_after_control_structures' => 'next',
     ]
