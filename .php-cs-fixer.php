@@ -24,7 +24,7 @@ $finder =   Finder::create()
             ->name('*.php')
             ->ignoreDotFiles(true);
 
-return  (new Config)
+return  (new Config())
         ->setFinder($finder)
         ->setRules($rules)
         ->setUsingCache(true);
