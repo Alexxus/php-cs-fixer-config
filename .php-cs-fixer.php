@@ -31,6 +31,9 @@ $rules = [
     'no_useless_return' => true,
     'no_whitespace_before_comma_in_array' => true,
     'normalize_index_brace' => true,
+    'ordered_imports' => [
+        'sort_algorithm' => 'alpha',
+    ],
     'single_quote' => true,
     'standardize_not_equals' => true,
     'trailing_comma_in_multiline' => [
